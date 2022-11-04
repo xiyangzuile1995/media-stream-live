@@ -1,0 +1,35 @@
+{
+  "name": "media-stream-live",
+  "version": "1.0.0",
+  "description": "一个集视频流、音频流一体的直播流数据录制、压缩、解压解析为一体的媒体流直播的工具包",
+  "main": "/src/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "media-stream-live",
+    "视频",
+    "音频",
+    "通话",
+    "对讲",
+    "视频流",
+    "音频流",
+    "直播",
+    "video",
+    "audio",
+    "record",
+    "worklet",
+    "web",
+    "js"
+  ],
+  "author": "xiyangzuile",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.7",
+    "npm": "^8.19.2",
+    "typescript": "^4.8.4"
+  }
+}
